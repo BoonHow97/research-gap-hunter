@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { ResultsView } from './components/ResultsView';
 import { FileData, AnalysisResult } from './types';
-import { synthesizeResearch } from './services/geminiService';
+import { synthesizeResearch } from './services/geminiServer';
 
 const App: React.FC = () => {
   const [topic, setTopic] = useState('');
