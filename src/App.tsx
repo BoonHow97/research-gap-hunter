@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { ResultsView } from './components/ResultsView';
-import { FileData, AnalysisResult } from './types';
+import { FileData, AnalysisResult } from './types/type.ts';
 import { synthesizeResearch } from './services/geminiServer';
 
 const App: React.FC = () => {
